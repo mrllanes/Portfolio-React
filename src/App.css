@@ -5,7 +5,7 @@ All other stylings are pulled from the default Bootstrap v4.5 stylesheet*/
 /*Semantic definitions*/
 body {
     /* background-color: rgb(26, 17, 63); */
-    background-image: url(images/background1.jpg);
+    background-image: url(./assets/background1.jpg);
     background-size: 100% 100%;
     color: snow;
     min-height: 100vh;
