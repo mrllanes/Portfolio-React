@@ -1,5 +1,12 @@
 import Llanes from "../assets/Llanes.png";
 
+const style1 = {
+    width: "250px",
+    // padding: "12px",
+    textAlign: "center",
+    float: "left",
+};
+
 export default function Home() {
     return (
         <>
@@ -14,10 +21,10 @@ export default function Home() {
                         <p>
                             <img
                                 src={Llanes}
-                                width="250px"
-                                alt="Michael Llanes Headshot"
+                                // width="250px"
+                                alt="Llanes Headshot"
                                 className="rounded"
-                                // style={{ float: left }}
+                                style={style1}
                             />
                             My name is <strong>Michael Llanes</strong>. I am the
                             President and Co-Owner of Senall Sabres, LLC., an
@@ -129,6 +136,7 @@ export default function Home() {
                             you can learn more about this profession{" "}
                             <a
                                 href="https://www.landman.org/about/who-we-are/what-is-a-landman"
+                                rel="noreferrer"
                                 target="_blank"
                             >
                                 here.
@@ -173,6 +181,7 @@ export default function Home() {
                             He also takes extreme pleasure in riding his{" "}
                             <a
                                 href="https://www.motorcyclecruiser.com/honda-rune-1800cc-six-cylinder-motorcycle-road-test/"
+                                rel="noreferrer"
                                 target="_blank"
                             >
                                 Honda Rune

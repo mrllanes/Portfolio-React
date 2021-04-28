@@ -52,6 +52,7 @@ export default function Navbar() {
                             <a
                                 className="dropdown-item"
                                 href="https://www.linkedin.com/in/llanesm/"
+                                rel="noreferrer"
                                 target="_blank"
                             >
                                 Llanes LinkedIn{" "}
@@ -69,6 +70,7 @@ export default function Navbar() {
                             <a
                                 className="dropdown-item"
                                 href="https://www.facebook.com/michael.llanes.37"
+                                rel="noreferrer"
                                 target="_blank"
                             >
                                 Llanes Facebook{" "}
@@ -86,6 +88,7 @@ export default function Navbar() {
                             <a
                                 className="dropdown-item"
                                 href="https://twitter.com/Michael_Llanes/"
+                                rel="noreferrer"
                                 target="_blank"
                             >
                                 Llanes Twitter{" "}
@@ -103,6 +106,7 @@ export default function Navbar() {
                             <a
                                 className="dropdown-item"
                                 href="https://www.github.com/mrllanes/"
+                                rel="noreferrer"
                                 target="_blank"
                             >
                                 Llanes GitHub{" "}
@@ -120,6 +124,7 @@ export default function Navbar() {
                             <a
                                 className="dropdown-item"
                                 href="https://scoutandcellar.com/?u=pristinewinebymichelle"
+                                rel="noreferrer"
                                 target="_blank"
                             >
                                 Pristine Wine By Michelle{" "}
