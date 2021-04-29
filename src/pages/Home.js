@@ -7,7 +7,7 @@ const style1 = {
     float: "left",
 };
 
-export default function Home() {
+export const Home = () => {
     return (
         <>
             <div className="container mb-5 pb-5">
@@ -242,4 +242,4 @@ export default function Home() {
             </div>
         </>
     );
-}
+};

@@ -1,4 +1,8 @@
-export default function Navbar() {
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
+export const Navbar = () => {
+    const [showLinks, setShowLinks] = useState(false);
     return (
         <nav className="navbar navbar-expand-lg bg-light text-light navbar-dark text-center">
             <h2 className="text-center" id="name">
@@ -18,9 +22,9 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav navbar-center">
                     <li className="nav-item active">
-                        <a className="nav-link" href="index.html">
+                        <Link className="nav-link" to="/">
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="portfolio.html">
@@ -34,19 +38,22 @@ export default function Navbar() {
                     </li>
 
                     <li className="nav-item dropdown">
-                        <a
-                            className="nav-link dropdown-toggle"
-                            href="#"
+                        <button
+                            className="nav-link dropdown-toggle btn"
                             id="navbarDropdownMenuLink"
-                            role="button"
                             data-toggle="dropdown"
                             aria-haspopup="true"
                             aria-expanded="false"
+                            onClick={() => setShowLinks(!showLinks)}
                         >
                             Llanes Media Platforms
-                        </a>
+                        </button>
                         <div
-                            className="dropdown-menu"
+                            className={
+                                showLinks
+                                    ? "dropdown-menu show"
+                                    : "dropdown-menu"
+                            }
                             aria-labelledby="navbarDropdownMenuLink"
                         >
                             <a
@@ -128,7 +135,7 @@ export default function Navbar() {
                                 target="_blank"
                             >
                                 Pristine Wine By Michelle{" "}
-                                <i className="fas fa-wine-glass"></i>
+                                <i className="fas fa-wine-glass" />
                             </a>
                         </div>
                     </li>
@@ -136,4 +143,4 @@ export default function Navbar() {
             </div>
         </nav>
     );
-}
+};

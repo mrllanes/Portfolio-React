@@ -9,7 +9,7 @@ const styleBlue = {
     color: "blue",
 };
 
-export default function Contact() {
+export const Contact = () => {
     return (
         <>
             <div className="container mb-5 pb-5">
@@ -62,7 +62,9 @@ export default function Contact() {
                         <div className="col-5 col-list">
                             <div className="row">
                                 <div className="col-3">
-                                    <label for="fullName">Full Name: </label>
+                                    <label htmlFor="fullName">
+                                        Full Name:{" "}
+                                    </label>
                                 </div>
                                 <div className="col">
                                     <input
@@ -76,7 +78,7 @@ export default function Contact() {
 
                             <div className="row">
                                 <div className="col-3">
-                                    <label for="emailAddress">
+                                    <label htmlFor="emailAddress">
                                         E-Mail Address:{" "}
                                     </label>
                                 </div>
@@ -92,7 +94,9 @@ export default function Contact() {
 
                             <div className="row">
                                 <div className="col-3">
-                                    <label for="identify">Are You A: </label>
+                                    <label htmlFor="identify">
+                                        Are You A:{" "}
+                                    </label>
                                 </div>
                                 <div className="col">
                                     <select id="identify" name="identify">
@@ -114,7 +118,7 @@ export default function Contact() {
 
                             <div className="row">
                                 <div className="col-3">
-                                    <label for="interest">Comments: </label>
+                                    <label htmlFor="interest">Comments: </label>
                                 </div>
                                 <div className="col">
                                     <textarea
@@ -141,4 +145,4 @@ export default function Contact() {
             </div>
         </>
     );
-}
+};

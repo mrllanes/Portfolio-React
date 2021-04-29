@@ -1,6 +1,6 @@
 import Logo from "../assets/sslogo.jpg";
 
-export default function Footer() {
+export const Footer = () => {
     return (
         <footer className="justify-content-center">
             <p>
@@ -14,4 +14,4 @@ export default function Footer() {
             </p>
         </footer>
     );
-}
+};
