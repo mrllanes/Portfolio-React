@@ -1,0 +1,72 @@
+[{
+  "id": 1,
+  "imgsrc": "./assets/images/weather-app-image.JPG",
+  "alt": "weather app",
+  "name": "Weather App",
+  "blurb": "Traveling? Going to work? Make sure you know what the weather is like to be prepared.",
+  "tagline1": "Search for a city (globally) and see weather info for that city.",
+  "tagline2": "You will also get humidity and UV index info. Very important.",
+  "tagline3": "Multiple searches? The app will keep track for easy reference.",
+  "weblink": "https://mrllanes.github.io/Weather-App/",
+  "gitrepo": "https://github.com/mrllanes/Weather-App"
+},
+{
+  "id": 2,
+  "imgsrc": "./assets/images/sudoku-image.PNG",
+  "alt": "themed sudoku",
+  "name": "Themed Sudoku",
+  "blurb": "Are you looking for a new Sudoku game? Have fun while sharpening your brain!",
+  "tagline1": "Choose a theme to fill the 'blank' squares.",
+  "tagline2": "Choose your difficulty level (easy, medium, hard).",
+  "tagline3": "Try not to laugh too much while working out your solution!",
+  "weblink": "https://code-monkey713.github.io/theme-sudoku/",
+  "gitrepo": "https://mrllanes.github.io/theme-sudoku/"
+},
+{
+"id": 3,
+"imgsrc": "./assets/images/Code-Quiz-Img-1.JPG",
+"alt": "javascript quiz",
+"name": "JavaScript Quiz",
+"blurb": "How well do you know JavaScript? Take this online quiz and find out!",
+"tagline1": "You will have 3 minutes to answer 15 questions.",
+"tagline2": "Incorrect answers will take 10 seconds off the timer.",
+"tagline3": "Do your best and see your score at that end. Good luck!",
+"weblink": "https://mrllanes.github.io/JS-Code-Quiz/",
+"gitrepo": "https://github.com/mrllanes/JS-Code-Quiz"
+},
+{
+"id": 4,
+"imgsrc": "./assets/images/pedagogue-image.JPG",
+"alt": "pedagogue site",
+"name": "Project Pedagogue",
+"blurb": "Because the best resource for a teacher/instructor is another teacher/instructor!",
+"tagline1": "Sign up and login to the ultimate teacher resource.",
+"tagline2": "Several categories to post your urgent questions/needs.",
+"tagline3": "Comment! Answer questions! YOU are the ultimate resource!",
+"weblink": "https://pedagu-gu.herokuapp.com/profile",
+"gitrepo": "https://github.com/erumd/Project2-repository"
+},
+{
+"id": 5,
+"imgsrc": "",
+"alt": "",
+"name": "",
+"blurb": "",
+"tagline1": "",
+"tagline2": "",
+"tagline3": "",
+"weblink": "",
+"gitrepo": ""
+},
+{
+"id": 6,
+"imgsrc": "",
+"alt": "",
+"name": "",
+"blurb": "",
+"tagline1": "",
+"tagline2": "",
+"tagline3": "",
+"weblink": "",
+"gitrepo": ""
+}]
