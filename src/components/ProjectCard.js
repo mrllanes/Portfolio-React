@@ -1,4 +1,14 @@
-export const ProjectCard = () => {
+export const ProjectCard = ({
+    img,
+    alt,
+    name,
+    blurb,
+    tagline1,
+    tagline2,
+    tagline3,
+    weblink,
+    gitrepo,
+}) => {
     const cardStyleWidth = {
         width: "18rem",
     };
@@ -9,26 +19,32 @@ export const ProjectCard = () => {
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="card" style={cardStyleWidth}>
-                            <img src="" className="img img-thumbnail" alt="" />
+                            <img
+                                src={img}
+                                className="img img-thumbnail"
+                                alt={alt}
+                            />
                             <div className="card-body">
-                                <h4 className="card-title"></h4>
-                                <p className="card-text"></p>
+                                <h4 className="card-title">{name}</h4>
+                                <p className="card-text">{blurb}</p>
                             </div>
                             <ul className="list-group list-group-flush">
-                                <li className="list-group-item"></li>
-                                <li className="list-group-item"></li>
-                                <li className="list-group-item"></li>
+                                <li className="list-group-item">{tagline1}</li>
+                                <li className="list-group-item">{tagline2}</li>
+                                <li className="list-group-item">{tagline3}</li>
                             </ul>
                             <div className="card-body">
                                 <a
-                                    href=""
+                                    href={weblink}
+                                    rel="noreferrer"
                                     target="_blank"
                                     className="card-link"
                                 >
                                     Weblink
                                 </a>
                                 <a
-                                    href=""
+                                    href={gitrepo}
+                                    rel="noreferrer"
                                     target="_blank"
                                     className="card-link"
                                 >

@@ -1,8 +1,11 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import cn from "classnames";
 
 export const Navbar = () => {
     const [showLinks, setShowLinks] = useState(false);
+    const location = useLocation();
+
     return (
         <nav className="navbar navbar-expand-lg bg-light text-light navbar-dark text-center">
             <h2 className="text-center" id="name">
@@ -21,20 +24,41 @@ export const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav navbar-center">
-                    <li className="nav-item active">
+                    <li
+                        className={cn("nav-item", {
+                            active: location.pathname === "/",
+                        })}
+                    >
                         <Link className="nav-link" to="/">
-                            Home
+                            Home{" "}
+                            {location.pathname === "/" && (
+                                <span className="sr-only">(current)</span>
+                            )}
                         </Link>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="portfolio.html">
-                            Portfolio
-                        </a>
+                    <li
+                        className={cn("nav-item", {
+                            active: location.pathname === "/portfolio",
+                        })}
+                    >
+                        <Link className="nav-link" to="/portfolio">
+                            Portfolio{" "}
+                            {location.pathname === "/portfolio" && (
+                                <span className="sr-only">(current)</span>
+                            )}
+                        </Link>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="contact.html">
-                            Contact
-                        </a>
+                    <li
+                        className={cn("nav-item", {
+                            active: location.pathname === "/contact",
+                        })}
+                    >
+                        <Link className="nav-link" to="/contact">
+                            Contact{" "}
+                            {location.pathname === "/contact" && (
+                                <span className="sr-only">(current)</span>
+                            )}
+                        </Link>
                     </li>
 
                     <li className="nav-item dropdown">

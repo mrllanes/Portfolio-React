@@ -1,6 +1,6 @@
 [{
   "id": 1,
-  "imgsrc": "./assets/images/weather-app-image.JPG",
+  "imgsrc": "weatherapp",
   "alt": "weather app",
   "name": "Weather App",
   "blurb": "Traveling? Going to work? Make sure you know what the weather is like to be prepared.",
@@ -12,7 +12,7 @@
 },
 {
   "id": 2,
-  "imgsrc": "./assets/images/sudoku-image.PNG",
+  "imgsrc": "sudoku",
   "alt": "themed sudoku",
   "name": "Themed Sudoku",
   "blurb": "Are you looking for a new Sudoku game? Have fun while sharpening your brain!",
@@ -24,7 +24,7 @@
 },
 {
 "id": 3,
-"imgsrc": "./assets/images/Code-Quiz-Img-1.JPG",
+"imgsrc": "codequiz",
 "alt": "javascript quiz",
 "name": "JavaScript Quiz",
 "blurb": "How well do you know JavaScript? Take this online quiz and find out!",
@@ -36,7 +36,7 @@
 },
 {
 "id": 4,
-"imgsrc": "./assets/images/pedagogue-image.JPG",
+"imgsrc": "pedagogue",
 "alt": "pedagogue site",
 "name": "Project Pedagogue",
 "blurb": "Because the best resource for a teacher/instructor is another teacher/instructor!",
@@ -48,15 +48,15 @@
 },
 {
 "id": 5,
-"imgsrc": "",
-"alt": "",
-"name": "",
-"blurb": "",
-"tagline1": "",
-"tagline2": "",
-"tagline3": "",
-"weblink": "",
-"gitrepo": ""
+"imgsrc": "reactdirectory",
+"alt": "employee directory",
+"name": "Employee Directory",
+"blurb": "Simple yet powerful Employee Directory built with the power of React!",
+"tagline1": "View you Directory with the vital information you need.",
+"tagline2": "Search for a specific employee with real time filtering!",
+"tagline3": "With React, much is possible and accomplished!",
+"weblink": "https://practical-bhabha-57a124.netlify.app/",
+"gitrepo": "https://github.com/mrllanes/Employee-Directory-React"
 },
 {
 "id": 6,
